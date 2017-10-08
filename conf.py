@@ -16,8 +16,7 @@
 import sys
 import os
 import sphinx_rtd_theme
-html_theme = "sphinx_rtd_theme"
-html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+
 import subprocess
 read_the_docs_build = os.environ.get('READTHEDOCS', None) == 'True'
 
@@ -27,7 +26,8 @@ read_the_docs_build = os.environ.get('READTHEDOCS', None) == 'True'
 #sys.path.insert(0, os.path.abspath('.'))
 
 # -- General configuration ------------------------------------------------
-
+html_theme = "sphinx_rtd_theme"
+html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 # If your documentation needs a minimal Sphinx version, state it here.
 #needs_sphinx = '1.0'
 
@@ -119,7 +119,7 @@ pygments_style = 'sphinx'
 
 breathe_projects = {"HIP":"./xml/",}
 
-breathe_default_project = "MIP"
+breathe_default_project = "HIP"
 # Add any paths that contain custom themes here, relative to this directory.
 #html_theme_path = []
 
@@ -211,7 +211,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  ('testing', 'rocmdocumentation.tex', u'testing',
+  ('testing', 'testing.tex', u'testing',
    u'mn265', 'manual'),
 ]
 
