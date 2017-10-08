@@ -9,32 +9,32 @@ Device management types and functions.
 hipDeviceSynchronize	
 -----------------------
 
-.. doxygenfunction:: hipError_t :: hipDeviceSynchronize(void)	
+.. doxygenfunction:: hipError_t hipDeviceSynchronize(void)	
 
 
 
 hipDeviceReset 
 ---------------
 
-.. doxygenfunction:: hipError_t :: hipDeviceReset(void)	
+.. doxygenfunction:: hipError_t hipDeviceReset(void)	
 
 
 hipSetDevice
 -------------
 
-.. doxygenfunction:: hipError_t :: hipSetDevice(int deviceId)	
+.. doxygenfunction:: hipError_t hipSetDevice(int deviceId)	
 
 
 hipGetDevice
 ----------------
 
-.. doxygenfunction:: hipGetDevice(int * deviceId)	
+.. doxygenfunction:: hipError_t hipGetDevice(int * deviceId)	
 
 
 hipGetDeviceCount
 -----------------
 
-.. doxygenfunction:: hipGetDeviceCount	(int * count)	
+.. doxygenfunction:: hipError_t hipGetDeviceCount	(int * count)	
 
 
 hipDeviceGetAttribute
