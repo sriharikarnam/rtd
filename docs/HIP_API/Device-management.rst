@@ -16,19 +16,19 @@ hipDeviceSynchronize
 hipDeviceReset 
 ---------------
 
-.. doxygenfunction:: hipError_t hipDeviceReset
+.. doxygenfunction:: hipDeviceReset
 
 
 hipSetDevice
 -------------
 
-.. doxygenfunction:: hipError_t hipSetDevice	
+.. doxygenfunction:: hipSetDevice	
 
 
 hipGetDevice
 ----------------
 
-.. doxygenfunction:: hipError_t hipGetDevice
+.. doxygenfunction:: hipGetDevice
 
 
 hipGetDeviceCount
