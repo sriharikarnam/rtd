@@ -44,7 +44,7 @@ extensions = [
 ]
 
 # Breathe extension variables
-breathe_projects = { "HIP": "./doxyxml/" }
+breathe_projects = { "HIP": "./xml/" }
 breathe_default_project = "HIP"
 
 # Add any paths that contain templates here, relative to this directory.
