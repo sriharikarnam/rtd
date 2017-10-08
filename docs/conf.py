@@ -44,8 +44,8 @@ extensions = [
 ]
 
 # Breathe extension variables
-#breathe_projects = { "ReadTheDocs-Breathe": "./xml/" }
-#breathe_default_project = "ReadTheDocs-Breathe"
+breathe_projects = { "ReadTheDocs-Breathe": "/xml/" }
+breathe_default_project = "ReadTheDocs-Breathe"
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
