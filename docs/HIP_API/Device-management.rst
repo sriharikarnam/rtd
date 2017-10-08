@@ -9,14 +9,14 @@ Device management types and functions.
 hipDeviceSynchronize	
 -----------------------
 
-.. doxygenfunction:: hipError_t hipDeviceSynchronize(void)	
+.. doxygenfunction:: hipError_t hipDeviceSynchronize
 
 
 
 hipDeviceReset 
 ---------------
 
-.. doxygenfunction:: hipError_t hipDeviceReset(void)	
+.. doxygenfunction:: hipError_t hipDeviceReset
 
 
 hipSetDevice
