@@ -44,7 +44,7 @@ extensions = [
 ]
 
 # Breathe extension variables
-breathe_projects = { "HIP": "doxyxml/" }
+breathe_projects = { "HIP": "../doxyxml/" }
 breathe_default_project = "HIP"
 
 # Add any paths that contain templates here, relative to this directory.
@@ -243,8 +243,8 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'readthedocs-breathe', 'ReadTheDocs-Breathe Documentation',
-     ['Thomas Edvalson'], 1)
+    ('index', 'testing', 'testing',
+     ['mohit'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -257,7 +257,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'ReadTheDocs-testing', 'testing Documentation',
+  ('index', 'testing', 'testing Documentation',
    'testing', 'testing', 'One line description of project.',
    'Miscellaneous'),
 ]
