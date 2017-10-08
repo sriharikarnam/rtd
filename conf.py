@@ -241,7 +241,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'test', u'testing',
+    ('index', 'testing', u'testing',
      [u'mohit'], 1)
 ]
 
@@ -256,7 +256,7 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
   ('index', 'testing', u'testing',
-   u'moohit', 'test', 'One line description of project.',
+   u'moohit', 'testing', 'One line description of project.',
    'Miscellaneous'),
 ]
 
