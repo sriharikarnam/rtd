@@ -4,9 +4,9 @@ GENERATE_LATEX   = NO
 GENERATE_MAN     = NO
 GENERATE_RTF     = NO
 CASE_SENSE_NAMES = NO
-INPUT            = ../HIP/include/hip \
-                   ../HIP/include/hip/hcc_detail/ \
-                   ../HIP/src/
+INPUT            = ../hip/include/hip \
+                   ../hip/include/hip/hcc_detail/ \
+                   ../hip/src/
 RECURSIVE        = YES
 QUIET            = YES
 JAVADOC_AUTOBRIEF = YES
