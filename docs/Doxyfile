@@ -1,5 +1,5 @@
 PROJECT_NAME     = "ReadTheDocs-Breathe Barebones"
-XML_OUTPUT       = doxyxml
+XML_OUTPUT       = xml
 GENERATE_LATEX   = NO
 GENERATE_MAN     = NO
 GENERATE_RTF     = NO
